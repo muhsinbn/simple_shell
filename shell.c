@@ -92,7 +92,7 @@ void set_list_env(_list_paths *p)
 	size = 0;
 	if (p == NULL)
 		return;
-        list_size = env_list_len(p);
+	list_size = env_list_len(p);
 	env = malloc(sizeof(char *) * (list_size));
 	if (env == NULL)
 	{
